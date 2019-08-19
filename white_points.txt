@@ -1,0 +1,20 @@
+# D65 whitepoint coordinates:
+# https://ninedegreesbelow.com/photography/well-behaved-profiles-quest.html
+# http://www.brucelindbloom.com/index.html?Eqn_T_to_xy.html
+# http://www.wolframalpha.com/input/?i=x+%3D+(-4.6070*10%5E9)%2F(6503.6%5E3)+%2B+(2.9678*10%5E6)%2F(6503.6%5E2)+%2B+(0.09911*10%5E3)%2F(6503.6)+%2B+0.244063,+y+%3D+-3.000*x%5E2+%2B+2.870*x+-+0.275,+x+%3D+A%2F(A%2BB%2BC),+y+%3D+B%2F(A%2BB%2BC),+B+%3D+100
+# http://www.numberempire.com/equationsolver.php
+# x=0.3127205345475321,y=0.3291255359683345,X=95.0155792766014,Y=100,Z=108.8198545367783
+
+set whitepoint_x 0.312721
+set whitepoint_y 0.329126
+
+set target_white_X 95.0156
+set target_white_Y 100
+set target_white_Z 108.8199
+
+
+# D65 reference white (2° observer)
+# http://onlinelibrary.wiley.com/doi/10.1002/9780470710890.app1/pdf
+# set target_white_X 95.047
+# set target_white_Y 100.00
+# set target_white_Z 108.883
